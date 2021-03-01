@@ -1,0 +1,96 @@
+body{
+	background:#fee;
+}
+center{
+	align-self: center;
+	align-items: center;
+}
+*{	
+	text-align:center;
+	margin-right:10px;
+	margin-left:10px;
+	font-size: 25px;
+	color:rgb(50, 55, 58);
+}
+a:link{
+	max-height:15px;
+	max-width:15px;
+	text-align: center;
+	text-decoration:none;
+	color:blue;
+}
+
+a:hover{
+	max-height:15px;
+	max-width:15px;
+	text-align: center;
+	text-decoration:none;
+}
+a:visited{
+	color:#0000FF;
+	max-height:15px;
+	max-width:15px;
+	text-align: center;
+	text-decoration:none;
+}
+a:active{
+	max-height:15px;
+	max-width:15px;
+	text-align: center;
+}
+@keyframes fade{
+	0%{opacity:0;}
+	100%{opacity:1;}
+}
+table{
+	animation-name: fade;
+	animation-duration: 2s;
+	animation-iteration-count: 1;
+	background:white;
+	border-radius: 20px;
+	box-shadow:0 12px 16px 0 rgba(0,0,0,0.24);
+    	padding: 17 30;
+}
+input{
+	background:#e7e3e3;
+	align-self: center;
+	border-radius:10px;
+	border-style:solid;
+	border-color:#dad5d5;
+
+}
+input:hover{
+	border-color:#e6625d;
+}
+input:active{
+	border-color:#e6625d;	
+	border-radius:10px;
+	border-style:solid;
+}
+h1{
+	color:rgb(255, 255, 255);
+	background-color:#000;
+	font-size:50px;
+	padding:10 5;
+}
+th{
+	color:rgb(0, 0, 0);
+	font-family: Tahoma, sans-serif;
+	margin-left: 39%;
+}
+td{
+	color:rgb(0, 0, 0);
+	font-family:Tahoma, sans-serif;
+}
+p{
+	color:rgb(214, 140, 1);
+	font-size: 40px;
+}
+button{
+	border-radius:10px;
+	background: rgb(255, 0, 0);
+	color:whitesmoke;
+	padding:10 20;
+	box-shadow:0 12px 16px 0 rgba(0,0,0,0.24);
+	opacity:0.5;
+}
