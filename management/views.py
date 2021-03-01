@@ -1,7 +1,7 @@
 from django.shortcuts import render
 import mysql.connector as msc
 # Create your views here.
-conn=msc.connect(host="localhost",user="root",password="india",database="cbse")
+conn=msc.connect(host="*****",user="****",password="*****",database="****")
 c=conn.cursor()
 r=0
 def admin(request):
